@@ -1,9 +1,11 @@
 /* Global */
 body
 {
-    margin-left: 2em;
-    margin-right: 2em;
     font-family: 'raleway', Arial, Helvetica, sans-serif;
+}
+#bloc_page
+{
+    margin: 0 0 0 2em;
 }
 a
 {
@@ -13,6 +15,7 @@ a
 p
 {
     margin: 0;
+    padding: 8px 0 8px 0;
 }
 h1, h2, h3
 {
@@ -24,21 +27,29 @@ header
 {
     display: flex;
     justify-content: space-between;
+    margin: 0 1.2em 0 1.2em;
 }
 .logo
 {
     margin: 0 0 1.2em 0;
     padding: 1em 0 0 0;
 }
+nav
+{
+    display: flex;
+    color: black;
+    margin: 1.2em 0 1.2em 0;
+}
 .nav-div
 {
     display: flex;
+    align-items: center;
 }
 .nav-link
 {
     margin-right: 2em;
-    padding-top: 2em;
-
+    padding: 2em 0 0 0;
+    height: 100%;
 }
 .nav-link:hover
 {
@@ -47,10 +58,14 @@ header
 }
 .img-logo
 {
-    width: 47%;
-    height: 84%;
+    width: 65%;
+    height: 85%;
 }
 /*search*/
+.search
+{
+    margin: 0 1.2em 0 1.2em;
+}
 .content-search
 {
     display: inline-flex;
@@ -76,6 +91,7 @@ header
     font-size: 1.1em;
     font-weight: bold;
     padding-left: 1.5em;
+    border: 0;
 }
 .button-search
 {
@@ -103,7 +119,6 @@ header
 .filter-title
 {
     font-size: 1.3em;
-    margin-right: 1.5em;
 }
 .filter-case
 {
