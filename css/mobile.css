@@ -1,0 +1,100 @@
+@media screen and (max-width : 750px)
+{
+    /*global*/
+    #bloc_page
+    {
+        margin: 0;
+    }
+    body
+    {
+        margin: 0;
+    }
+    /* Header */
+    header
+    {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 2px solid rgb(211, 206, 206);
+    }
+    .logo
+    {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .img-logo
+    {
+        width: 20%;
+    }
+    nav
+    {
+        width:100%;
+    }
+    .nav-link:hover
+    {
+        border-top: 0;
+        border-bottom: 3px solid #0065fc;
+    }
+    .nav-div
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .nav-link 
+    {
+        width: 100%;
+        margin: 1em 0 0 0;
+        padding: 0 0 1em 0;
+    }
+    /*search*/
+    .search
+    {
+        margin: 1.2em 1.2em 0 1em;
+    }
+    .icon-button-search
+    {
+        display: block;
+    }
+    .label-search
+    {
+        display: none;
+    }
+    .input-search 
+    {
+        font-size: 1em;
+        padding-left: 1em;
+        font-weight: bold;
+
+    }
+
+    .button-search
+    {
+        border-radius: 1em 1em 1em 1em;
+        padding: 0 1.2em 0 1.2em;
+    }
+    .info-icon
+    {
+        height: 1.2em;
+        width: 1.5em;
+        margin-left: 0;
+        color: #0065fc;
+    }
+    /*filtre*/
+    .filter
+    {
+        flex-wrap: wrap;
+        margin: 0;
+        font-size: inherit;
+    }
+
+    .filter-title
+    {
+        width: 100%;
+    }
+    .filter-case
+    {
+        margin-left: 0;
+        margin-top: 0.5em;
+    }
+    
+}
