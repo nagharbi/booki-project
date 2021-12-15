@@ -12,7 +12,7 @@ body
 
 a
 {
-    text-decoration: none;
+    text-decoration: none; /* pour enlever la decoration du lien */
     color: inherit; /* Enlever la couleur par défaut des liens */
 }
 
@@ -159,6 +159,7 @@ nav
     display: flex;
     height: 3em;
     width: 3em;
+
     border: 3px solid #DEEBFF;
     align-items: center;
     border-radius: 100%;
