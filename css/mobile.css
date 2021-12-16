@@ -1,250 +1,27 @@
 @media screen and (max-width : 750px)
 {
-    /*global*/
-    #bloc_page
-    {
-        margin: 0;
-    }
-
-    /** Header **/
-    header
-    {
-        margin: 0;
-        flex-direction: column;
-    }
-
-    .logo
-    {
-        padding: 1.2em 0 0 0;
-        text-align: center;
-    }
-
-    .img-logo
-    {
-        width: 20%;
-    }
-
-    nav
-    {
-        width:100%;
-        margin: 0 0 2em 0;
-        padding: 0;
-        height:auto;
-    }
-
-    .nav-div
-    {
-        width: 100%;
-        text-align: center;
-    }
-
-    .nav-link
-    {
-        width: 100%;
-        border-bottom: 2px solid #f2f2f2;
-        margin:0;
-        padding: 0 0 0.5em 0;
-    }
-
-    .nav-link:hover
-    {
-        width: 100%;
-        border-bottom: 3px solid #0065FC;
-        border-top: 0;
-    }
-
     /** Search **/
-    .search
-    {
-        margin: 0.2em 0.5em 0 0.5em;
-    }
-
-    .header-search
-    {
-        margin-left: 1.2em;
-        margin-right: 0.5em;
-    }
-
     .search-form
     {
         width: 100%;
     }
 
-    .search-button
-    {
-        border-radius: 1em;
-    }
-
-    .search-button-name
-    {
-        display: none;
-    }
-
-    .search-button i
-    {
-        display: block;
-    }
-
-    .info-icon
-    {
-        height: 1.2em;
-        width: 1.5em;
-        margin-left: 0;
-        color: #0065fc;
-    }
-
-    /** Filter **/
-    .filter
-    {
-        flex-wrap: wrap;
-        justify-content: space-between;
-        width: 90%;
-        margin: 1.5em 1.5em 0 0.5em;
-    }
-
-    .filter-title
-    {
-        width: 100%;
-    }
-
-    .filter-case
-    {
-        margin-left: 0;
-        margin-top: 0.5em;
-    }
-
-    .filter
-    {
-        margin-right: 3%;
-    }
-
-    /** Hosting & Popular **/
-    .hosting-section
-    {
-        flex-direction: column;
-        margin: 0;
-    }
-
-    /** Popular **/
-    .popular
-    {
-        margin: 0;
-        width: 100%;
-        border-radius: inherit;  /** Annuler le style **/
-    }
-
-    .popular-title
-    {
-        padding: 1em;
-    }
-
-    .popular-container
-    {
-        padding: 0 1.2em 0 1.2em;
-    }
-
-    .popular-cards
-    {
-        margin-bottom: 1.2em;
-    }
-
     /** Hosting **/
-    .hosting
+    .hosting-img
     {
-        padding: 0;
-        background-color: inherit;
-        width: 100%;
-    }
-
-    .hosting-title
-    {
-        padding: 1.2em;
+        height: 150px;
     }
 
     .hosting-container
     {
         flex-wrap: inherit;
         flex-direction: column;
+        margin: 0;
     }
 
     .hosting-cards
     {
         width: 90%;
-        margin: 0 0 1em 1em;
-    }
-
-    .hosting-content {
-        margin-bottom: 2%;
-    }
-
-    /* 3eme section */
-    .activity-title
-    {
-        margin-left: 5%;
-    }
-
-    .activity-container
-    {
-        flex-direction: column;
-    }
-
-    .activity-column
-    {
-        flex-direction: column;
-    }
-
-    .ativity-card-right
-    {
-        width: 90%;
-        margin: 0;
-        padding-left: 1.2em;
-    }
-
-    .activity-card-left
-    {
-        width: 90%;
-        margin-bottom: 2.1em;
-        height: 234px;
-    }
-
-    .activity-title
-    {
-        margin-left: 5%;
-    }
-
-    .img-left
-    {
-        width: 100%;
-        height: inherit;
-    }
-
-    .activity-card-top
-    {
-        width: 100%;
-        height: 234px;
-        margin-bottom: 2em;
-        border-radius: 2em;
-        background-color: white;
-        box-shadow: 0 0 16px #0000002e;
-    }
-
-    .img-top
-    {
-        width: 100%;
-        max-height: 80%;
-    }
-
-    .activity-card-left
-    {
-        width:100%;
-        height: inherit;
-        margin-right: 1em;
-    }
-
-    .img-left
-    {
-        height: 200px;
-        width: 100%;
     }
 
     /*footer*/
