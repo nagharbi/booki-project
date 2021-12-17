@@ -2,18 +2,36 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8"/>
+        <!-- Pour améliorer l'experience mobile afin que les différents éléments s'affichent mieux -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Font-family-->
+        <!-- Font-family -->
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,800&display=swap" rel="stylesheet">
-        <!-- style css pour importer les iconnes -->
+        <!-- style css pour importer les icones -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+        <!-- Pour assurer la cohérence entre les navigateurs -->
         <link rel="stylesheet" href="css/normalize.css"/>
         <link rel="stylesheet" href="css/style.css"/>
         <link rel="stylesheet" media="screen and (max-width: 1280px)" href="css/tablette.css"/>
         <link rel="stylesheet" media="screen and (max-width: 750px)" href="css/mobile.css"/>
         <title>Booki</title>
     </head>
+    <!-- Header -->
+    <!--    Div.logo -->
+    <!--    Nav -->
+    <!-- Main -->
+    <!--    Section.search -->
+    <!--        Div.header-search" -->
+    <!--        Form.search-form -->
+    <!--        Div.filter -->
+    <!--    Section.hosting-section -->
+    <!--        Div.popular -->
+    <!--        Div.hosting -->
+    <!--    Section.activity -->
+    <!--        Div.activity-title -->
+    <!--        Div.activity-container -->
+    <!-- Footer -->
     <body>
+        <!-- La partie header -->
         <header>
             <div class="logo">
                 <img class="img-logo" alt="booki" src="images/logo/Booki.png"/>
@@ -29,8 +47,9 @@
                 </div>
             </nav>
         </header>
+        <!-- La partie main - Le contenu principal du site -->
         <main>
-            <!-- 1er section search-->
+            <!-- La section de recherche et filtre -->
             <section class="search">
                 <div class="header-search">
                     <h2><strong>Trouver votre hebergement pour des vacances de rêve</strong></h2>
@@ -46,7 +65,8 @@
                         <span class="search-button-name">Rechercher</span>
                     </button>
                 </form>
-                <div class="filter"> <!--pour la partie du filter -->
+                <!-- La partie du filtre -->
+                <div class="filter">
                     <h3 class="filter-title">Filtres</h3>
                     <div class="filter-case">
                         <div class="filter-icon">
@@ -73,14 +93,15 @@
                         <p class="filter-content">Animaux autorisés</p>
                     </div>
                 </div>
-                <div class="info"> <!--c'est la partie info-->
+                <!-- La partie info du recherche -->
+                <div class="info">
                     <div class="info-icon"><i class="fas fa-info blue-color"></i></div>
                     <span>Plus de 500 logements sont disponibles dans cette ville</span>
                 </div>
             </section>
-            <!-- la 2 eme section-->
+            <!-- La 2eme section hébergement à Marseille et les plus populars-->
             <section id="hosting" class="hosting-section">
-                <!--la 1ére div -->
+                <!--La 1ére div les plus populars -->
                 <div class="popular">
                     <h2 class="popular-title">Les plus populars <i class="fas fa-chart-line"></i></h2>
                     <div class="popular-container">
@@ -140,7 +161,7 @@
                         </a>
                     </div>
                 </div>
-                <!--la 2éme div-->
+                <!--La 2éme div hébergement à Marseille -->
                 <div class="hosting">
                     <div class="hosting-title">
                         <h2>Hébergement à Marseille</h2>
@@ -231,13 +252,13 @@
                             </a>
                         </div>
                     </div>
-                    <!--la 3éme div-->
+                    <!--La 3éme div afficher plus -->
                     <div class="hosting-more-content">
                         <a class="more-content" href="#"><strong>Afficher plus</strong></a>
                     </div>
                 </div>
             </section>
-            <!-- la 3 eme section-->
+            <!-- La 3eme section activités à Marseille -->
             <section id="activity" class="activity">
                 <div class="activity-title">
                     <h2 class="activity-title-content">Activités à Marseille</h2>
@@ -294,6 +315,7 @@
                 </div>
             </section>
         </main>
+        <!-- La partie footer -->
         <footer>
             <div class="content-footer">
                 <h3>A propos</h3>
@@ -306,15 +328,15 @@
             <div class="content-footer">
                 <h3>Nos hebergements</h3>
                 <ul class="link-footer">
-                    <li><a href="#">charte qualité</a></li>
-                    <li><a href="#">soumettre votre hôtel</a></li>
+                    <li><a href="#">Charte qualité</a></li>
+                    <li><a href="#">Soumettre votre hôtel</a></li>
                 </ul>
             </div>
             <div class="content-footer">
                 <h3>Assistance</h3>
                 <ul class="link-footer">
-                    <li><a href="#">centre d'aide</a></li>
-                    <li><a href="#">nous contacter</a></li>
+                    <li><a href="#">Centre d'aide</a></li>
+                    <li><a href="#">Nous contacter</a></li>
                 </ul>
             </div>
         </footer>

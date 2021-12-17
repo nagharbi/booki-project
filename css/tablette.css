@@ -1,9 +1,15 @@
 @media screen and (max-width: 1280px)
 {
-    /*global*/
+    /** Global **/
+    body
+    {
+        margin: 0;
+    }
+
     main
     {
         margin: 0;
+        width: 100%;
     }
 
     /** Header **/
@@ -125,7 +131,7 @@
         margin: 0;
     }
 
-    /** Popular **/
+     /** Popular **/
     .popular
     {
         margin: 0;
@@ -176,12 +182,7 @@
         margin-bottom: 2%;
     }
 
-    .hosting-container
-    {
-        margin-left: 1.2em;
-    }
-
-    /* 3eme section */
+    /** La 3eme section activite **/
     .activity-title
     {
         margin-left: 5%;
