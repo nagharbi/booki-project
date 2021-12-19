@@ -1,7 +1,8 @@
 /** Global **/
 body
 {
-    font-family: 'raleway', Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 main
@@ -115,6 +116,11 @@ nav
     padding-left: 16px;
     font-weight: bold;
     font-size: 100%;
+}
+
+.search-input::placeholder
+{
+    color: rgba(0, 0, 0, 0.412);
 }
 
 .search-form-icon
