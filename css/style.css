@@ -338,7 +338,7 @@ nav
 }
 
 /** La 3éme section activite **/
-.activity-title-content
+.activity-title
 {
     margin: 16px;
 }
@@ -358,12 +358,11 @@ nav
     margin-right: 32px;
 }
 
-.ativity-card-right
+.activity-card-right
 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 400px;
     margin-right: 8px;
 }
 
